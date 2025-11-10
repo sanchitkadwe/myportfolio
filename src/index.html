@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">ICONIX</a>
+                <div class="nav-links">
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#experience">Education</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi! I'm Sanchit</h1>
+                <p>Persuing M.Tech in Computer Science at IIT Bombay.A passionate developer who loves solving real-world problems through clean architecture, intuitive design, and efficient code.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="fade-in">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <p>I'm a passionate developer with a focus on creating efficient, scalable solutions.</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Exploring the Horizons of tech</h3>
+                    <p>Hey there! I’m Sanchit Kadwe, pursuing my M.Tech in Computer Science at IIT Bombay. I’m deeply fascinated by how code can shape experiences — from crafting seamless interfaces to engineering powerful systems. I’m driven by curiosity, precision, and the joy of building great software.</p>
+                    <div class="skills">
+                        <span class="skill-tag">Music</span>
+                        <span class="skill-tag">Badminton</span>    
+                        <span class="skill-tag">DSA</span>
+                        <span class="skill-tag">System Design</span>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="profile-placeholder">
+                        <img src="https://us.123rf.com/450wm/mrvander/mrvander2310/mrvander231000030/216629563-man-in-hoodie-logo-design-vector-mascot-design-black-and-white-icon.jpg?ver=6" 
+                            style="width: 100%; height: 100%; object-fit: cover; object-position: center; display: block;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="fade-in">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <p>A selection of my recent work showcasing my skills and approach.</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Music Genre Classifier-->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div  class="project-placeholder">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Music Genre Classification</h3>
+                        <p>Classifying music tracks into distinct genres using Convolutional Neural Networks (CNNs) leveraging the GTZAN dataset.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Numpy</span>
+                            <span class="project-tag">Tensorflow</span>
+                            <span class="project-tag">Matplotlib</span>
+                            <span class="project-tag">Streamlit</span>
+
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sanchitkadwe/fml-project" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- KV-DB -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>HTTP-based Key-Value Server with LRU Cache.</h3>
+                        <p>This project implements a high-performance multi-threaded HTTP Key-Value storage server with an in-memory LRU cache for fast lookups and persistent MySQL backend for durability.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">C++</span>
+                            <span class="project-tag">Socket Programming</span>
+                            <span class="project-tag">MySQL</span>
+                        </div>
+                        <div class="project-links">
+                
+                            <a href="https://github.com/sanchitkadwe/CS744-kv-db" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Campus Cravings -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Campus Cravings</h3>
+                        <p>Campus Cravings is a web-based application designed to simplify food ordering within a campus environment. Users can browse menus, place orders, and track deliveries in real time.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Angular</span>
+                            <span class="project-tag">Typescript</span>
+                            <span class="project-tag">Django</span>
+                            <span class="project-tag">Tailwind</span>
+                        </div>
+                        <div class="project-links">
+                            
+                            <a href="https://github.com/sanchitkadwe/campus-cravings" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="fade-in">
+        <div class="container">
+            <div class="section-header">
+                <h2>Education</h2>
+                <p>My educational journey and milestones.</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>M. Tech - Computer Science & Engineering</h3>
+                        <div class="company">Indian Institute of Techonology, Bombay</div>
+                        <div class="date">2024-2027</div>
+                        <!-- <p></p> -->
+                    </div>
+                </div>
+
+                <!-- Experience 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>B. Tech - Information Technology</h3>
+                        <div class="company">Government College of Engineering, Aurangabad</div>
+                        <div class="date">2020-2024</div>
+                        <p>CGPA : 8.42/10</p>
+                    </div>
+                </div>
+
+                <!-- Experience 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Higher Secondary Education</h3>
+                        <div class="company">Jawahar Navodaya Vidyalaya, Wardha</div>
+                        <div class="date">2018-2020</div>
+                        <p>District Topper scoring 95%.</p>
+                    </div>
+                </div>
+
+                <!-- Experience 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Secondary Education</h3>
+                        <div class="company">Jawahar Navodaya Vidyalaya, Wardha</div>
+                        <div class="date">2013-2018</div>
+                        <p>3rd District Topper scoring 95.2%.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="fade-in">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Have a project in mind or want to collaborate? Let's talk.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <p>sanchitkadwe@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Phone</h4>
+                            <p>Mai nahi bataunga !</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Location</h4>
+                            <p>Mumbai, Maharashtra, India</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">ICONIX</div>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#experience">Education</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/sanchitkadwe" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sanchit-kadwe/" class="social-link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="mailto:sanchitkadwe@gmail.com" class="social-link">
+                        <i class="fab fa-google"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2025 ICONIX. All rights reserved.
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
